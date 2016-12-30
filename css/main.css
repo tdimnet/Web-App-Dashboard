@@ -92,8 +92,8 @@ body {
 }
 
 .main-nav li {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
 }
 
 .main-nav a {
@@ -111,4 +111,64 @@ body {
 
 .main-nav .icon {
   fill:#FFFFFF;
+}
+
+
+
+/***********************
+  Dashboard-header
+***********************/
+.dashboard-header {
+  text-align: center;
+}
+
+.dashboard-header h2 {
+  font-weight: normal;
+  color: #777;
+}
+
+.dashboard-header-searchbar input {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #999;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dashboard-header-searchbar input:hover,
+.dashboard-header-searchbar input:focus {
+  border-color: #7377BF;
+}
+
+.dashboard-header-searchbar input:focus {
+  outline: 0;
+}
+
+
+
+/***********************
+  Alert-box
+***********************/
+.alert-box {
+  background-color: #7377BF;
+  color: #fff;
+  text-align: justify;
+  font-size: .9em;
+  margin: 20px 10px;
+  padding: 10px 35px 10px 10px;
+  border-radius: 5px;
+}
+
+.alert-box p {
+  margin: 0;
+  position: relative;
+}
+
+.alert-box span {
+  position: absolute;
+  right: -25px;
+  top: 0;
+  font-weight: bolder;
+  font-size: 1.2em;
+  cursor: pointer;
 }
