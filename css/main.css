@@ -9,6 +9,7 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
+  min-width: 320px;
 }
 
 
@@ -57,10 +58,29 @@ body {
   height: 20px;
   width: 22px;
   margin-left: auto;
+  opacity: .7;
+}
+
+.main-header li:nth-of-type(2):hover {
+  opacity: 1;
 }
 
 .icon-bell {
   fill: #FFFFFF;
+}
+
+.main-header li:nth-of-type(2) a {
+  position: relative;
+}
+
+.icon-bell-notification {
+  height: 7px;
+  width: 7px;
+  background-color: #3AC162;
+  position: absolute;
+  top: -10px;
+  right: -2px;
+  border-radius: 50%;
 }
 
 /* Targets the image and the name of the user */
@@ -166,9 +186,19 @@ body {
 
 .alert-box span {
   position: absolute;
-  right: -25px;
-  top: 0;
-  font-weight: bolder;
-  font-size: 1.2em;
+  right: -30px;
+  top: 0px;
+  height: 15px;
+  width: 15px;
   cursor: pointer;
+  opacity: .7;
+}
+
+.alert-box span:hover {
+  opacity: 1;
+}
+
+.alert-box .close-button {
+  fill: #FFFFFF;
+  stroke-width: 2;
 }
