@@ -1,8 +1,10 @@
 //The dropdown notification menu
-
+$('.icon-bell-element').click(function () {
+  $('#dropdown-notification-menu').toggle();
+});
 
 //Close the alert dialog box
-$('.close-button').click(function() {
+$('.close-button').click(function () {
   $('.alert-box').fadeOut("slow");
 });
 

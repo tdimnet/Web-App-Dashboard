@@ -74,12 +74,22 @@ body {
   background-color: #fff;
   color: #000;
   z-index: 200;
-  padding: 5px 10px;
+  padding: 5px;
   border-radius: 10px;
-  width: 250px;
-  right: -10%;
   display: none;
 }
+
+#dropdown-notification-menu h2 {
+  font-size: 1em;
+  font-weight: lighter;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #999;
+}
+
+#dropdown-notification-menu p {
+  font-size: .9em;
+}
+
 
 .icon-bell {
   fill: #FFFFFF;
