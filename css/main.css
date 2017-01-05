@@ -53,16 +53,32 @@ body {
   position: absolute;
 }
 
-/* Targets the svg element */
+/* Targets the bell icon element */
 .main-header li:nth-of-type(2) {
   height: 20px;
   width: 22px;
   margin-left: auto;
+  position: relative;
+}
+
+.main-header li:nth-of-type(2) svg {
   opacity: .7;
 }
 
-.main-header li:nth-of-type(2):hover {
+.main-header li:nth-of-type(2) svg:hover {
   opacity: 1;
+}
+
+#dropdown-notification-menu {
+  position: absolute;
+  background-color: #fff;
+  color: #000;
+  z-index: 200;
+  padding: 5px 10px;
+  border-radius: 10px;
+  width: 250px;
+  right: -10%;
+  display: none;
 }
 
 .icon-bell {
