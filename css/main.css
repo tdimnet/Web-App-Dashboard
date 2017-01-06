@@ -244,3 +244,17 @@ span.magnifying-glass {
   fill: #FFFFFF;
   stroke-width: 2;
 }
+
+
+
+/***********************
+  Web Traffic Widget
+***********************/
+.web-traffic-widget-container {
+  width: 95%;
+  margin: 10px auto;
+}
+
+.web-traffic-widget {
+  width: 100%;
+}
