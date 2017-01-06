@@ -41,10 +41,15 @@ var dataWebTrafficWidget = {
 };
 
 
-
 var myTrafficWidget = new Chart($webTrafficWidget, {
   type: 'line',
   data: dataWebTrafficWidget,
   //options: options
 });
   //End: The web traffic widget
+
+
+
+  //Start: The daily traffic widget
+var $dailyTrafficWidget = $('daily-traffic-widget');
+  //End: The daily traffic widget

@@ -265,9 +265,9 @@ span.magnifying-glass {
   margin: 0 5px;
 }
 
-.web-traffic-widget-container nav li:first-child {
-  font-size: 1.2em;
-  font-weight: normal;
+.web-traffic-widget-container nav h3 {
+  margin-top: 0;
+  margin-bottom: 0;
   text-transform: uppercase;
 }
 
@@ -292,4 +292,36 @@ span.magnifying-glass {
 
 .web-traffic-widget {
   width: 100%;
+}
+
+
+
+/***********************
+  Daily Traffic and Mobile Users Widget
+***********************/
+.daily-and-mobile-container {
+  width: 95%;
+  margin: 20px auto;
+  display: flex;
+}
+
+.daily-traffic-container,
+.mobile-users-container {
+  width: 50%;
+  padding: 5px 10px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.daily-and-mobile-container canvas {
+  width: 100%;
+}
+
+.daily-and-mobile-container h3 {
+  text-transform: uppercase;
+  color: #777;
+}
+
+.daily-traffic-container {
+  border-right: 1px solid #ccc;
 }

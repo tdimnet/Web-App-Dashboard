@@ -156,7 +156,7 @@
       <div class="web-traffic-widget-container">
         <nav>
           <ul>
-            <li>Traffic</li>
+            <li><h3>Traffic</h3></li>
             <li><a href="#">Hourly</a></li>
             <li><a href="#">Daily</a></li>
             <li><a href="#">Weekly</a></li>
@@ -164,13 +164,19 @@
           </ul>
         </nav>
         <canvas class="web-traffic-widget"></canvas>
-      </div>
+      </div> <!-- END: web-traffic-widget-container -->
 
 
       <div class="daily-and-mobile-container">
-        <div class="daily-traffic-container"></div>
-        <div class="mobile-users-container"></div>
-      </div>
+        <div class="daily-traffic-container">
+          <h3>Daily Traffic</h3>
+          <canvas class="daily-traffic-widget"></canvas>
+        </div>
+        <div class="mobile-users-container">
+          <h3>Mobile Users</h3>
+          <canvas class="mobile-users-widget"></canvas>
+        </div>
+      </div> <!-- END: daily-and-mobile-container -->
 
     </div> <!-- END: main-wrapper -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.min.js" charset="utf-8"></script>
