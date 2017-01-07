@@ -325,3 +325,41 @@ span.magnifying-glass {
 .daily-traffic-container {
   border-right: 1px solid #ccc;
 }
+
+.mobile-users-widget {
+  max-height: 300px;
+  max-width: 300px;
+}
+
+
+
+/***********************
+  Social Stats
+***********************/
+.social-stats-main-container {
+  width: 95%;
+  margin: 20px auto;
+}
+
+.social-stats-main-container h3 {
+  text-transform: uppercase;
+  color: #777;
+}
+
+.social-stats-sub-container {
+  display: flex;
+}
+
+.social-stats {
+  margin-right: 30px;
+  width: 30%;
+  padding: 10px 5px;
+  border: 1px solid #ccc;
+  background-color: #FBFBFB;
+  border-radius: 10px;
+}
+
+/*
+Color for the three svgs social icons
+  fill: #7377BF;
+*/
