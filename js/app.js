@@ -85,3 +85,35 @@ var myDailyWidget = new Chart($dailyTrafficWidget, {
   data: dataDailyTrafficWidget
 });
   //End: The daily traffic widget
+
+
+  //Start: The daily traffic widget
+var $mobileUsersWidget = $('.mobile-users-widget');
+
+var dataMobileUsersWidget = {
+    labels: [
+        "Red",
+        "Blue",
+        "Yellow"
+    ],
+    datasets: [
+        {
+            data: [300, 50, 100],
+            backgroundColor: [
+                "#FF6384",
+                "#36A2EB",
+                "#FFCE56"
+            ],
+            hoverBackgroundColor: [
+                "#FF6384",
+                "#36A2EB",
+                "#FFCE56"
+            ]
+        }]
+};
+
+var myMobileUsersWidget = new Chart($mobileUsersWidget, {
+  type: 'doughnut',
+  data: dataMobileUsersWidget
+});
+  //End: The daily traffic widget
