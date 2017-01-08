@@ -341,7 +341,7 @@ span.magnifying-glass {
   margin: 20px auto;
 }
 
-.social-stats-main-container h3 {
+  .social-stats-main-container h3 {
   text-transform: uppercase;
   color: #777;
 }
@@ -357,4 +357,25 @@ span.magnifying-glass {
   border: 1px solid #ccc;
   background-color: #FBFBFB;
   border-radius: 10px;
+}
+
+
+
+/***********************
+  New Members and Recent Activity
+***********************/
+.new-members-and-recent-activity {
+  width: 95%;
+  margin: 20px auto;
+  display: flex;
+}
+
+.new-members-and-recent-activity h3 {
+  text-transform: uppercase;
+  color: #777;
+}
+
+.new-members,
+.recent-activity {
+  width: 50%;
 }
