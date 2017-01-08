@@ -291,7 +291,7 @@ span.magnifying-glass {
 }
 
 .web-traffic-widget {
-  width: 100%;
+  max-width: 100%;
 }
 
 
@@ -358,8 +358,3 @@ span.magnifying-glass {
   background-color: #FBFBFB;
   border-radius: 10px;
 }
-
-/*
-Color for the three svgs social icons
-  fill: #7377BF;
-*/
