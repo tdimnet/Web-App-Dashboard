@@ -424,3 +424,45 @@ span.magnifying-glass {
   font-weight: bold;
   font-size: .9em;
 }
+
+
+
+/***********************
+  Message User and Settings
+***********************/
+.message-user-and-settings {
+  width: 95%;
+  margin: 20px auto;
+  display: flex;
+}
+
+.message-user-and-settings h3 {
+  text-transform: uppercase;
+  color: #777;
+}
+
+.message-user,
+.settings {
+  width: 50%;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+.message-user {
+  border-right: 1px solid #ccc;
+}
+
+.message-user input,
+.message-user textarea,
+.message-user button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+.message-user button {
+  background-color: #7377BF;
+  color: #fff;
+}
