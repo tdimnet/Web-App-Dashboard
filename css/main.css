@@ -461,8 +461,16 @@ span.magnifying-glass {
   border-radius: 10px;
 }
 
-
 .message-user button {
+  background-color: #7377BF;
+  color: #fff;
+}
+
+.settings button {
+  padding: 10px;
+  border-radius: 10px;
+  width: 40%;
+  margin: 0 2.5%;
   background-color: #7377BF;
   color: #fff;
 }
