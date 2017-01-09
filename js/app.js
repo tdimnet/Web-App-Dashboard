@@ -54,28 +54,30 @@ var myTrafficWidget = new Chart($webTrafficWidget, {
 var $dailyTrafficWidget = $('.daily-traffic-widget');
 
 var dataDailyTrafficWidget = {
-  labels: ["January", "February", "March", "April", "May", "June", "July"],
+  labels: ["S", "M", "T", "W", "T", "F", "S"],
     datasets: [
         {
             label: "My First dataset",
             backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-                'rgba(255, 159, 64, 0.2)'
+                '#7377BF',
+                '#7377BF',
+                '#7377BF',
+                '#7377BF',
+                '#7377BF',
+                '#7377BF',
+                '#7377BF'
             ],
             borderColor: [
-                'rgba(255,99,132,1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)'
+                '#7377BF',
+                '#7377BF',
+                '#7377BF',
+                '#7377BF',
+                '#7377BF',
+                '#7377BF',
+                '#7377BF'
             ],
             borderWidth: 1,
-            data: [65, 59, 80, 81, 56, 55, 40, 30],
+            data: [75, 100, 175, 125, 225, 200, 100],
         }
     ]
 };
@@ -92,22 +94,22 @@ var $mobileUsersWidget = $('.mobile-users-widget');
 
 var dataMobileUsersWidget = {
     labels: [
-        "Red",
-        "Blue",
-        "Yellow"
+        "Phones",
+        "Tablets",
+        "Desktop"
     ],
     datasets: [
         {
-            data: [300, 50, 100],
+            data: [15, 15, 70],
             backgroundColor: [
-                "#FF6384",
-                "#36A2EB",
-                "#FFCE56"
+                "#81C98F",
+                "#74B1BF",
+                "#7377BF"
             ],
             hoverBackgroundColor: [
-                "#FF6384",
-                "#36A2EB",
-                "#FFCE56"
+                "#81C98F",
+                "#74B1BF",
+                "#7377BF"
             ]
         }]
 };
