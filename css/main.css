@@ -378,4 +378,26 @@ span.magnifying-glass {
 .new-members,
 .recent-activity {
   width: 50%;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+.new-members {
+  border-right: 1px solid #ccc;
+}
+
+.new-members-information {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+
+.new-members-information:last-child {
+  border: none;
+}
+
+
+.new-members-information p:last-child {
+  margin-left: auto;
+  vertical-align: middle;
 }
