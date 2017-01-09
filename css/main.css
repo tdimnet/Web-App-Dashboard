@@ -396,8 +396,31 @@ span.magnifying-glass {
   border: none;
 }
 
-
 .new-members-information p:last-child {
   margin-left: auto;
   vertical-align: middle;
+}
+
+.members-name {
+  color: #777;
+  font-weight: bold;
+}
+
+.members-email {
+  color: #A8AAD5;
+}
+
+.members-inscritpion-date {
+  color: #777;
+  font-weight: lighter;
+}
+
+.members-activity {
+  color: #777;
+}
+
+.members-activity-date {
+  color: #777;
+  font-weight: bold;
+  font-size: .9em;
 }
