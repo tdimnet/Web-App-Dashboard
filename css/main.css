@@ -261,10 +261,6 @@ span.magnifying-glass {
   color: #777;
 }
 
-.web-traffic-widget-container nav li {
-  margin: 0 5px;
-}
-
 .web-traffic-widget-container nav h3 {
   margin-top: 0;
   margin-bottom: 0;
@@ -303,11 +299,12 @@ span.magnifying-glass {
   width: 95%;
   margin: 20px auto;
   display: flex;
+  flex-direction: column;
 }
 
 .daily-traffic-container,
 .mobile-users-container {
-  width: 50%;
+  width: 100%;
   padding: 5px 10px;
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
@@ -329,11 +326,13 @@ span.magnifying-glass {
 .mobile-users-widget-and-legend,
 .mobile-users-legend {
   display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .mobile-users-legend {
-  margin-left: 5%;
-  flex-direction: column;
+  margin-top: 20px;
+  flex-direction: row;
 }
 
 .mobile-users-legend span {
@@ -373,13 +372,9 @@ span.magnifying-glass {
   color: #777;
 }
 
-.social-stats-sub-container {
-  display: flex;
-}
-
 .social-stats {
-  margin-right: 30px;
-  width: 30%;
+  margin: 10px auto;
+  width: 90%;
   padding: 10px 5px;
   border: 1px solid #ccc;
   background-color: #FBFBFB;
@@ -394,7 +389,6 @@ span.magnifying-glass {
 .new-members-and-recent-activity {
   width: 95%;
   margin: 20px auto;
-  display: flex;
 }
 
 .new-members-and-recent-activity h3 {
@@ -404,7 +398,7 @@ span.magnifying-glass {
 
 .new-members,
 .recent-activity {
-  width: 50%;
+  width: 100%;
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
   padding: 10px;
@@ -460,7 +454,6 @@ span.magnifying-glass {
 .message-user-and-settings {
   width: 95%;
   margin: 20px auto;
-  display: flex;
 }
 
 .message-user-and-settings h3 {
@@ -470,7 +463,7 @@ span.magnifying-glass {
 
 .message-user,
 .settings {
-  width: 50%;
+  width: 100%;
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
   padding: 10px;
