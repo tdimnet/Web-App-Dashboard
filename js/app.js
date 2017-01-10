@@ -9,6 +9,10 @@ $('.close-button').click(function () {
 });
 
 
+//General settings for the chart
+Chart.defaults.global.legend.display = false;
+Chart.defaults.global.responsive = true;
+
 
   //Start: The web traffic widget
 //Creating the variables: the container class & the chart itself

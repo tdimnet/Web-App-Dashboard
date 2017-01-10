@@ -326,6 +326,33 @@ span.magnifying-glass {
   border-right: 1px solid #ccc;
 }
 
+.mobile-users-widget-and-legend,
+.mobile-users-legend {
+  display: flex;
+}
+
+.mobile-users-legend {
+  margin-left: 5%;
+  flex-direction: column;
+}
+
+.mobile-users-legend span {
+  margin: 0px 10px;
+  padding: 0px 20px 0px 10px;
+}
+
+.mobile-users-legend p:first-child span {
+  background-color: #81C98F;
+}
+
+.mobile-users-legend p:nth-of-type(2) span {
+  background-color: #74B1BF;
+}
+
+.mobile-users-legend p:last-child span {
+  background-color: #7377BF;
+}
+
 .mobile-users-widget {
   max-height: 300px;
   max-width: 300px;
