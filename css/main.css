@@ -319,10 +319,6 @@ span.magnifying-glass {
   color: #777;
 }
 
-.daily-traffic-container {
-  border-right: 1px solid #ccc;
-}
-
 .mobile-users-widget-and-legend,
 .mobile-users-legend {
   display: flex;
@@ -404,10 +400,6 @@ span.magnifying-glass {
   padding: 10px;
 }
 
-.new-members {
-  border-right: 1px solid #ccc;
-}
-
 .new-members-information {
   display: flex;
   border-bottom: 1px solid #ccc;
@@ -467,10 +459,6 @@ span.magnifying-glass {
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
   padding: 10px;
-}
-
-.message-user {
-  border-right: 1px solid #ccc;
 }
 
 .message-user input,
