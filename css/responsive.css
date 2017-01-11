@@ -1,0 +1,22 @@
+/***********************
+  Tablet Elements
+***********************/
+@media screen and (min-width: 768px) {
+  .dashboard-header {
+    display: flex;
+    align-items: center;
+  }
+
+  .dashboard-header h2 {
+    margin-left: 10px;
+    margin-right: 15px;
+  }
+
+  .dashboard-header-searchbar {
+    margin-left: auto;
+    width: 100%;
+    padding: 14px 0px;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+  }
+}
