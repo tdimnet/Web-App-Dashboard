@@ -24,6 +24,11 @@
   }
 
   /***********************
+    Web Traffic Widget
+  ***********************/
+  
+
+  /***********************
     Daily Traffic and Mobile Users Widget
   ***********************/
   .daily-and-mobile-container {
@@ -43,5 +48,31 @@
   .mobile-users-widget {
     max-height: 150px;
     max-width: 150px;
+  }
+
+  /***********************
+    Social Stats
+  ***********************/
+  .social-stats-sub-container {
+    display: flex;
+  }
+
+  .social-stats {
+    margin-left: 10px;
+  }
+
+  .social-stats:first-child {
+    margin-left: 0;
+  }
+
+  /***********************
+    Message User and Settings
+  ***********************/
+  .message-user-and-settings {
+    display: flex;
+  }
+
+  .message-user {
+    border-right: 1px solid #ccc;
   }
 }
