@@ -1,0 +1,21 @@
+/***********************
+  Desktop Elements
+***********************/
+@media screen and (min-width: 1024px) {
+  #main-wrapper {
+    display: flex;
+  }
+
+  #full-page-section {
+    width: 90%;
+  }
+
+  .main-nav {
+    width: 10%;
+  }
+
+  .main-nav ul {
+    flex-direction: column;
+    padding: 0;
+  }
+}
