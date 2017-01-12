@@ -16,6 +16,12 @@
 
   .main-nav ul {
     flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     padding: 0;
+  }
+
+  .main-nav li {
+    margin-top: 40px;
   }
 }
