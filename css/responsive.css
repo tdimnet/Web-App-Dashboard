@@ -12,7 +12,7 @@
 
   .dashboard-header h2 {
     margin-left: 10px;
-    margin-right: 15px;
+    margin-right: 20px;
   }
 
   .dashboard-header-searchbar {
@@ -23,10 +23,20 @@
     border-bottom: 1px solid #ddd;
   }
 
+  .dashboard-header-searchbar input {
+    width: 40%;
+    float: right;
+    margin-right: 40px;
+  }
+
+  span.magnifying-glass {
+    top: 23px;
+  }
+
   /***********************
     Web Traffic Widget
   ***********************/
-  
+
 
   /***********************
     Daily Traffic and Mobile Users Widget
