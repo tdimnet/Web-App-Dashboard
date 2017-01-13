@@ -24,4 +24,23 @@
   .main-nav li {
     margin-top: 40px;
   }
+
+  /***********************
+    Daily Traffic and Mobile Users Widget
+  ***********************/
+  .mobile-users-widget-and-legend {
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .mobile-users-widget {
+    max-height: 200px;
+    max-width: 200px;
+  }
+
+  .mobile-users-legend {
+    margin-top: 0;
+    flex-direction: column;
+  }
 }

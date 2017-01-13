@@ -100,20 +100,23 @@ var dataMobileUsersWidget = {
     labels: [
         "Phones",
         "Tablets",
-        "Desktop"
+        "Desktop",
+        "Smart TV"
     ],
     datasets: [
         {
-            data: [15, 15, 70],
+            data: [15, 15, 70, 5],
             backgroundColor: [
                 "#81C98F",
                 "#74B1BF",
-                "#7377BF"
+                "#7377BF",
+                "#6195ED"
             ],
             hoverBackgroundColor: [
                 "#81C98F",
                 "#74B1BF",
-                "#7377BF"
+                "#7377BF",
+                "#6195ED"
             ]
         }]
 };
