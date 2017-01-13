@@ -43,4 +43,29 @@
     margin-top: 0;
     flex-direction: column;
   }
+
+  /***********************
+    New Members and Recent Activity
+  ***********************/
+  .new-members-and-recent-activity {
+    display: flex;
+  }
+
+  .new-members,
+  .recent-activity {
+    width: 50%;
+  }
+
+  .new-members {
+    border-right: 1px solid #ccc;
+  }
+
+  .members-email {
+    opacity: .7;
+    cursor: pointer;
+  }
+
+  .members-email:hover {
+    opacity: 1;
+  }
 }

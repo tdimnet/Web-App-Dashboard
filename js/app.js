@@ -82,6 +82,29 @@ var dataDailyTrafficWidget = {
             ],
             borderWidth: 1,
             data: [75, 100, 175, 125, 225, 200, 100],
+        },
+        {
+            label: "My Second dataset",
+            backgroundColor: [
+                '#6195ED',
+                '#6195ED',
+                '#6195ED',
+                '#6195ED',
+                '#6195ED',
+                '#6195ED',
+                '#6195ED'
+            ],
+            borderColor: [
+                '#6195ED',
+                '#6195ED',
+                '#6195ED',
+                '#6195ED',
+                '#6195ED',
+                '#6195ED',
+                '#6195ED'
+            ],
+            borderWidth: 1,
+            data: [175, 75, 50, 175, 125, 50, 250],
         }
     ]
 };
