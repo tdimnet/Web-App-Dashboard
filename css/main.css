@@ -373,4 +373,13 @@ body {
   font-family: 'Open Sans', sans-serif;
   min-width: 320px; }
 
+img {
+  max-width: 100%; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style-type: none; }
+
 /*# sourceMappingURL=main.css.map */
