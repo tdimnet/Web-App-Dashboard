@@ -11,7 +11,7 @@ $('.close-button').click(function () {
 
 //General settings for the chart
 Chart.defaults.global.legend.display = false;
-Chart.defaults.global.responsive = true;
+Chart.defaults.global.responsive = false;
 
 
   //Start: The web traffic widget
@@ -48,7 +48,9 @@ var dataWebTrafficWidget = {
 var myTrafficWidget = new Chart($webTrafficWidget, {
   type: 'line',
   data: dataWebTrafficWidget,
-  //options: options
+  options: {
+    responsive: true
+  }
 });
   //End: The web traffic widget
 

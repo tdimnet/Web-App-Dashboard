@@ -482,14 +482,15 @@ li {
   padding: 10px;
   border: 1px solid #999;
   border-radius: 5px;
-  cursor: pointer; }
+  cursor: pointer;
+  color: #7377BF; }
 
 span.magnifying-glass {
   position: absolute;
   height: 20px;
   width: 20px;
-  top: 10px;
-  right: 6%; }
+  top: 12px;
+  right: 7%; }
 
 .magnifying-glass-icon {
   fill: #7377BF; }
@@ -536,24 +537,23 @@ span.magnifying-glass {
 
 .web-traffic-widget-container nav ul {
   display: flex;
+  flex-direction: column;
   color: #777;
   padding-left: 0; }
 
 .web-traffic-widget-container h3 {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 10px;
   text-transform: uppercase; }
 
 .web-traffic-widget-container nav a {
   font-weight: bold;
   color: #777;
   font-size: .9em;
-  padding: 5px 10px;
   transition: .4s; }
 
 .web-traffic-widget-container nav a:hover {
   background-color: #81C98F;
-  color: #fff;
-  border-radius: 20px; }
+  color: #fff; }
 
 /*# sourceMappingURL=main.css.map */
