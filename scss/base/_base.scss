@@ -7,11 +7,18 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  min-width: 320px;
+  min-width: 300px;
 }
 
-//Think to add a main-wrapper id here
+#main-container {
+  width: 95%;
+  margin: 0 auto;
+}
 
+#main-container h3 {
+  text-transform: uppercase;
+  color: #777;
+}
 
 
 img {
