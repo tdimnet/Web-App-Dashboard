@@ -445,4 +445,26 @@ li {
 .main-header li:last-child img {
   display: none; }
 
+.main-nav {
+  background-color: #4D4C72; }
+
+.main-nav ul {
+  padding: 10px;
+  margin: 0;
+  display: flex;
+  justify-content: space-around; }
+
+.main-nav li {
+  height: 30px;
+  width: 30px; }
+
+.main-nav .icon {
+  fill: #FFFFFF; }
+
+.main-nav svg {
+  opacity: .7; }
+
+.main-nav svg:hover {
+  opacity: 1; }
+
 /*# sourceMappingURL=main.css.map */
