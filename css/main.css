@@ -501,4 +501,59 @@ span.magnifying-glass {
 .dashboard-header-searchbar input:focus {
   outline: 0; }
 
+.alert-box {
+  background-color: #7377BF;
+  color: #fff;
+  text-align: justify;
+  font-size: .9em;
+  margin: 20px 10px;
+  padding: 10px 35px 10px 10px;
+  border-radius: 5px; }
+
+.alert-box p {
+  margin: 0;
+  position: relative; }
+
+.alert-box span {
+  position: absolute;
+  right: -30px;
+  top: 0px;
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+  opacity: .7; }
+
+.alert-box span:hover {
+  opacity: 1; }
+
+.alert-box .close-button {
+  fill: #FFFFFF;
+  stroke-width: 2; }
+
+.web-traffic-widget-container {
+  width: 90%;
+  margin: 10px auto; }
+
+.web-traffic-widget-container nav ul {
+  display: flex;
+  color: #777;
+  padding-left: 0; }
+
+.web-traffic-widget-container h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-transform: uppercase; }
+
+.web-traffic-widget-container nav a {
+  font-weight: bold;
+  color: #777;
+  font-size: .9em;
+  padding: 5px 10px;
+  transition: .4s; }
+
+.web-traffic-widget-container nav a:hover {
+  background-color: #81C98F;
+  color: #fff;
+  border-radius: 20px; }
+
 /*# sourceMappingURL=main.css.map */

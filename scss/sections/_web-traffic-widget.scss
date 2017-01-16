@@ -1,0 +1,31 @@
+// Web Traffic Widget
+.web-traffic-widget-container {
+  width: 90%;
+  margin: 10px auto;
+}
+
+.web-traffic-widget-container nav ul {
+  display: flex;
+  color: #777;
+  padding-left: 0;
+}
+
+.web-traffic-widget-container h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.web-traffic-widget-container nav a {
+  font-weight: bold;
+  color: #777;
+  font-size: .9em;
+  padding: 5px 10px;
+  transition: .4s;
+}
+
+.web-traffic-widget-container nav a:hover {
+  background-color: #81C98F;
+  color: #fff;
+  border-radius: 20px;
+}
