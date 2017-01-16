@@ -602,4 +602,20 @@ span.magnifying-glass {
 .mobile-users-legend p:nth-of-type(4) span {
   background-color: #6195ED; }
 
+.social-stats-main-container {
+  width: 95%;
+  margin: 20px auto; }
+
+.social-stats-main-container h3 {
+  text-transform: uppercase;
+  color: #777; }
+
+.social-stats {
+  margin: 10px auto;
+  width: 90%;
+  padding: 10px 5px;
+  border: 1px solid #ccc;
+  background-color: #FBFBFB;
+  border-radius: 10px; }
+
 /*# sourceMappingURL=main.css.map */
