@@ -35,8 +35,15 @@
   border-radius: 50%;
 }
 
-
 .social-stats svg path {
   fill: #fff;
   transform: scale(.7) translate(7px, 9px);
+}
+
+.social-stats.instagram svg path:nth-of-type(1) {
+  transform: scale(.7) translate(20%, 20%);
+}
+
+.social-stats.instagram svg path:nth-of-type(2) {
+  transform: scale(.7) translate(40%, 40%);
 }
