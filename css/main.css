@@ -642,4 +642,13 @@ span.magnifying-glass {
 .social-stats.instagram svg path:nth-of-type(2) {
   transform: scale(0.7) translate(40%, 40%); }
 
+.social-stats.youtube svg path {
+  stroke: #fff;
+  stroke-width: 2px;
+  fill: #7377BF;
+  transform: scale(0.7) translate(20%, 30%); }
+
+.social-stats.youtube svg polygon {
+  fill: #fff; }
+
 /*# sourceMappingURL=main.css.map */
