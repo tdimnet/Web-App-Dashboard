@@ -1,0 +1,71 @@
+// New Members and Recent Activity
+.new-members-and-recent-activity {
+  margin: 20px auto;
+}
+
+.new-members,
+.recent-activity {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0px;
+}
+
+.recent-activity {
+  border-top: none;
+}
+
+.new-members-information {
+  border-bottom: 1px solid #ccc;
+}
+
+.new-members-information:last-child {
+  border: none;
+}
+
+.members-name {
+  color: #777;
+  font-weight: bold;
+}
+
+.members-email {
+  color: #A8AAD5;
+}
+
+.members-inscritpion-date {
+  color: #777;
+  font-weight: lighter;
+}
+
+.new-members-information p:first-child {
+  width: 90%;
+  position: relative;
+}
+
+.members-activity {
+  color: #777;
+}
+
+.members-activity-date {
+  color: #777;
+  font-weight: bold;
+  font-size: .9em;
+}
+
+.arrow-right-icon {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: -14%;
+  bottom: 25px;
+  opacity: .7;
+  transition: .4s;
+  cursor: pointer;
+}
+
+.arrow-right-icon:hover {
+  opacity: 1;
+}
+
+.arrow-right-icon path {
+  fill: #7479BD;
+}
