@@ -1,6 +1,5 @@
 // Social Stats
 .social-stats-main-container {
-  width: 95%;
   margin: 20px auto;
 }
 
@@ -10,10 +9,34 @@
 }
 
 .social-stats {
-  margin: 10px auto;
-  width: 90%;
+  margin: 10px 5px;
   padding: 10px 5px;
   border: 1px solid #ccc;
   background-color: #FBFBFB;
   border-radius: 10px;
+  text-align: center;
+}
+
+.social-stats h4 {
+  color: #7377BF;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.social-stats p {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #777;
+  font-size: 1.5em;
+}
+
+.social-stats svg {
+  background-color: #7377BF;
+  border-radius: 50%;
+}
+
+
+.social-stats svg path {
+  fill: #fff;
+  transform: scale(.7) translate(7px, 9px);
 }
