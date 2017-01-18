@@ -12,26 +12,55 @@
 .message-user button {
   width: 100%;
   padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #7377BF;
+}
+
+.message-user input:hover,
+.message-user textarea:hover {
+  border-color: #7377BF;
+}
+
+.message-user input:focus,
+.message-user textarea:focus,
+.message-user button:focus,
+.settings button:focus {
+  outline: 0;
 }
 
 .message-user button {
   background-color: #7377BF;
   color: #fff;
+  border: none;
+}
+
+.message-user-and-settings button {
+  cursor: pointer;
+  transition: .4s;
+  text-transform: uppercase;
+}
+
+.message-user-and-settings button:hover {
+  background-color: #81C98F;
 }
 
 .settings button {
+  cursor: pointer;
   padding: 10px;
   width: 40%;
-  margin: 0 2.5%;
+  margin: 0 4.5%;
   background-color: #7377BF;
   color: #fff;
+  border: none;
+  border-radius: 5px;
 }
 
-button {
-  cursor: pointer;
-  transition: .4s;
+.settings .btn-cancel {
+  background-color: #bbb;
 }
 
-button:hover {
-  background-color: #81C98F;
+.settings .btn-cancel:hover {
+  background-color: #444;
 }
