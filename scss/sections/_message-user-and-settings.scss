@@ -1,21 +1,6 @@
-
-/***********************
-  Message User and Settings
-***********************/
+// Message User and Settings
 .message-user-and-settings {
-  width: 95%;
   margin: 20px auto;
-}
-
-.message-user-and-settings h3 {
-  text-transform: uppercase;
-  color: #777;
-}
-
-.message-user,
-.settings {
-  width: 100%;
-  padding: 10px;
 }
 
 .message-user {
@@ -27,7 +12,6 @@
 .message-user button {
   width: 100%;
   padding: 10px;
-  border-radius: 10px;
 }
 
 .message-user button {
@@ -37,7 +21,6 @@
 
 .settings button {
   padding: 10px;
-  border-radius: 10px;
   width: 40%;
   margin: 0 2.5%;
   background-color: #7377BF;

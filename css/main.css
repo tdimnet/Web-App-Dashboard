@@ -708,4 +708,34 @@ span.magnifying-glass {
 .arrow-right-icon path {
   fill: #7479BD; }
 
+.message-user-and-settings {
+  margin: 20px auto; }
+
+.message-user {
+  border-bottom: 1px solid #ccc; }
+
+.message-user input,
+.message-user textarea,
+.message-user button {
+  width: 100%;
+  padding: 10px; }
+
+.message-user button {
+  background-color: #7377BF;
+  color: #fff; }
+
+.settings button {
+  padding: 10px;
+  width: 40%;
+  margin: 0 2.5%;
+  background-color: #7377BF;
+  color: #fff; }
+
+button {
+  cursor: pointer;
+  transition: .4s; }
+
+button:hover {
+  background-color: #81C98F; }
+
 /*# sourceMappingURL=main.css.map */
