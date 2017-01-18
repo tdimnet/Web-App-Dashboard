@@ -9,7 +9,8 @@
 
 .message-user input,
 .message-user textarea,
-.message-user button {
+.message-user button,
+.settings select {
   width: 100%;
   padding: 10px;
   border: 1px solid #bbb;
@@ -19,15 +20,25 @@
 }
 
 .message-user input:hover,
-.message-user textarea:hover {
+.message-user textarea:hover,
+.settings select:hover {
   border-color: #7377BF;
 }
 
 .message-user input:focus,
 .message-user textarea:focus,
 .message-user button:focus,
-.settings button:focus {
+.settings button:focus,
+.settings select:focus {
   outline: 0;
+}
+
+.settings select:focus {
+  color: #7377BF;
+}
+
+.settings select {
+  color: #bbb;
 }
 
 .message-user button {
