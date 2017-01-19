@@ -113,7 +113,10 @@ var dataDailyTrafficWidget = {
 
 var myDailyWidget = new Chart($dailyTrafficWidget, {
   type: 'bar',
-  data: dataDailyTrafficWidget
+  data: dataDailyTrafficWidget,
+  options: {
+    responsive: true
+  }
 });
   //End: The daily traffic widget
 
@@ -148,6 +151,9 @@ var dataMobileUsersWidget = {
 
 var myMobileUsersWidget = new Chart($mobileUsersWidget, {
   type: 'doughnut',
-  data: dataMobileUsersWidget
+  data: dataMobileUsersWidget,
+  options: {
+    responsive: true
+  }
 });
   //End: The daily traffic widget
