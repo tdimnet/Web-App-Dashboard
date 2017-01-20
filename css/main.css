@@ -448,10 +448,22 @@ li {
 .main-header li:last-child {
   padding: 7px 0px 7px 5px;
   border-left: 1px solid #4D4C72;
-  font-weight: lighter; }
+  font-weight: lighter;
+  position: relative; }
 
 .main-header li:last-child img {
   display: none; }
+  @media (min-width: 768px) {
+    .main-header li:last-child img {
+      display: initial;
+      position: absolute;
+      border-radius: 50%;
+      height: 35px;
+      top: 0; } }
+
+@media (min-width: 768px) {
+  .main-header li:last-child span {
+    margin-left: 40px; } }
 
 .main-nav {
   background-color: #4D4C72; }
