@@ -1,32 +1,5 @@
 
   /***********************
-    Web Traffic Widget
-  ***********************/
-
-
-  /***********************
-    Daily Traffic and Mobile Users Widget
-  ***********************/
-  .daily-and-mobile-container {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .daily-traffic-container,
-  .mobile-users-container {
-    width: 50%;
-  }
-
-  .daily-traffic-container {
-    border-right: 1px solid #ccc;
-  }
-
-  .mobile-users-widget {
-    max-height: 150px;
-    max-width: 150px;
-  }
-
-  /***********************
     Social Stats
   ***********************/
   .social-stats-sub-container {
