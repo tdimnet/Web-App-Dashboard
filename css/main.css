@@ -778,6 +778,9 @@ span.magnifying-glass {
 
 .new-members-and-recent-activity {
   margin: 20px auto; }
+  @media (min-width: 1024px) {
+    .new-members-and-recent-activity {
+      display: flex; } }
 
 .new-members,
 .recent-activity {
@@ -787,10 +790,20 @@ span.magnifying-glass {
   @media (min-width: 1024px) {
     .new-members,
     .recent-activity {
-      border-bottom: none; } }
+      border-bottom: none;
+      width: 50%; } }
+
+@media (min-width: 1024px) {
+  .new-members {
+    padding-right: 10px; } }
 
 .recent-activity {
   border-top: none; }
+  @media (min-width: 1024px) {
+    .recent-activity {
+      border-top: 1px solid #ccc;
+      border-left: 1px solid #ccc;
+      padding-left: 10px; } }
 
 .new-members-information {
   border-bottom: 1px solid #ccc; }
@@ -846,6 +859,9 @@ span.magnifying-glass {
 .new-members-information p:first-of-type {
   width: 90%;
   position: relative; }
+  @media (min-width: 1024px) {
+    .new-members-information p:first-of-type {
+      width: 100%; } }
 
 .members-activity {
   color: #777; }
@@ -867,6 +883,9 @@ span.magnifying-glass {
   @media (min-width: 768px) {
     .arrow-right-icon {
       bottom: 0; } }
+  @media (min-width: 1024px) {
+    .arrow-right-icon {
+      display: none; } }
 
 .arrow-right-icon:hover {
   opacity: 1; }

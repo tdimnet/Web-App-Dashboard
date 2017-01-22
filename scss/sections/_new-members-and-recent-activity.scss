@@ -1,6 +1,9 @@
 // New Members and Recent Activity
 .new-members-and-recent-activity {
   margin: 20px auto;
+  @media #{$desktop} {
+    display: flex;
+  }
 }
 
 .new-members,
@@ -9,12 +12,24 @@
   border-bottom: 1px solid #ccc;
   @media #{$desktop} {
     border-bottom: none;
+    width: 50%;
   }
   padding: 10px 0px;
 }
 
+.new-members {
+  @media #{$desktop} {
+    padding-right: 10px;
+  }
+}
+
 .recent-activity {
   border-top: none;
+  @media #{$desktop} {
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    padding-left: 10px;
+  }
 }
 
 .new-members-information {
@@ -84,6 +99,9 @@
 .new-members-information p:first-of-type {
   width: 90%;
   position: relative;
+  @media #{$desktop} {
+    width: 100%;
+  }
 }
 
 .members-activity {
@@ -107,6 +125,9 @@
   cursor: pointer;
   @media #{$tablet} {
     bottom: 0;
+  }
+  @media #{$desktop} {
+    display: none;
   }
 }
 
