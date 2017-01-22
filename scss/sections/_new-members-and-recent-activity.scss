@@ -7,6 +7,9 @@
 .recent-activity {
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
+  @media #{$desktop} {
+    border-bottom: none;
+  }
   padding: 10px 0px;
 }
 

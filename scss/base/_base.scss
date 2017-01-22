@@ -19,7 +19,6 @@ body {
 #main-container {
   width: 95%;
   margin: 0 auto;
-
 }
 
 #main-container h3 {
@@ -27,6 +26,11 @@ body {
   color: #777;
 }
 
+.main-desktop-container {
+  @media #{$desktop} {
+    width: 100%;
+  }
+}
 
 
 img {

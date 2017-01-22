@@ -3,6 +3,14 @@
   margin: 20px auto;
   @media #{$desktop} {
     display: flex;
+    border-top: 1px solid #ccc;
+    margin-top: 0;
+  }
+}
+
+.message-user-and-settings {
+  @media #{$desktop} {
+    margin-top: 0;
   }
 }
 
@@ -15,7 +23,7 @@
 
 .settings {
   @media #{$desktop} {
-    padding-left: 20px;
+    padding-left: 10px;
   }
 }
 
@@ -23,6 +31,8 @@
   border-bottom: 1px solid #ccc;
   @media #{$desktop} {
     border-bottom: none;
+    border-right: 1px solid #ccc;
+    padding-right: 10px;
   }
 }
 
