@@ -31,6 +31,20 @@
   }
 }
 
+.mobile-users-container h3 {
+  @media #{$tablet} {
+    margin-left: 10px;
+  }
+}
+
+.daily-traffic-widget {
+  margin-left: -10px;
+  @media #{$tablet} {
+    margin-top: 20px;
+    max-height: 200px;
+  }
+}
+
 .mobile-users-widget-and-legend,
 .mobile-users-legend {
   display: flex;
@@ -38,11 +52,9 @@
 }
 
 .mobile-users-widget {
-  @media #{$tablet} {
-    max-height: 150px;
-    max-width: 150px;
-    margin: auto;
-  }
+  max-height: 150px;
+  max-width: 150px;
+  margin: auto;
 }
 
 .mobile-users-legend {
