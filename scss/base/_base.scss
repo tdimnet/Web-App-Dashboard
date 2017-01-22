@@ -10,15 +10,23 @@ body {
   min-width: 280px;
 }
 
+#main-wrapper {
+  @media #{$desktop} {
+    display: flex;
+  }
+}
+
 #main-container {
   width: 95%;
   margin: 0 auto;
+
 }
 
 #main-container h3 {
   text-transform: uppercase;
   color: #777;
 }
+
 
 
 img {

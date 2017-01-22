@@ -51,15 +51,25 @@
   flex-wrap: wrap;
 }
 
+
 .mobile-users-widget {
   max-height: 150px;
   max-width: 150px;
   margin: auto;
+  @media #{$desktop} {
+    max-width: 200px;
+    max-height: 200px;
+  }
 }
 
 .mobile-users-legend {
   margin-top: 20px;
   flex-direction: row;
+  @media #{$desktop} {
+    flex-direction: column;
+    margin-top: 0;
+    margin-right: 20px;
+  }
 }
 
 .mobile-users-legend span {

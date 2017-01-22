@@ -8,11 +8,19 @@
   margin: 0;
   display: flex;
   justify-content: space-around;
+  @media #{$desktop} {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
 
 .main-nav li {
   height: 30px;
   width: 30px;
+  @media #{$desktop} {
+    margin-top: 40px;
+  }
 }
 
 .main-nav .icon {

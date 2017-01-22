@@ -1,6 +1,9 @@
 // New Members and Recent Activity
 .new-members-and-recent-activity {
   margin: 20px auto;
+  @media #{$desktop} {
+    display: flex;
+  }
 }
 
 .new-members,
