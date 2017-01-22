@@ -772,9 +772,6 @@ span.magnifying-glass {
 
 .new-members-and-recent-activity {
   margin: 20px auto; }
-  @media (min-width: 1024px) {
-    .new-members-and-recent-activity {
-      display: flex; } }
 
 .new-members,
 .recent-activity {
@@ -869,9 +866,32 @@ span.magnifying-glass {
 
 .message-user-and-settings {
   margin: 20px auto; }
+  @media (min-width: 1024px) {
+    .message-user-and-settings {
+      display: flex; } }
+
+@media (min-width: 1024px) {
+  .message-user,
+  .settings {
+    width: 50%; } }
+
+@media (min-width: 1024px) {
+  .settings {
+    padding-left: 20px; } }
 
 .message-user {
   border-bottom: 1px solid #ccc; }
+  @media (min-width: 1024px) {
+    .message-user {
+      border-bottom: none; } }
+
+@media (min-width: 1024px) {
+  .message-user input {
+    margin-top: 10px; } }
+
+@media (min-width: 1024px) {
+  .message-user textarea {
+    height: 95px; } }
 
 .message-user input,
 .message-user textarea,

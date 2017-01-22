@@ -1,10 +1,41 @@
 // Message User and Settings
 .message-user-and-settings {
   margin: 20px auto;
+  @media #{$desktop} {
+    display: flex;
+  }
+}
+
+.message-user,
+.settings {
+  @media #{$desktop} {
+    width: 50%;
+  }
+}
+
+.settings {
+  @media #{$desktop} {
+    padding-left: 20px;
+  }
 }
 
 .message-user {
   border-bottom: 1px solid #ccc;
+  @media #{$desktop} {
+    border-bottom: none;
+  }
+}
+
+.message-user input {
+  @media #{$desktop} {
+    margin-top: 10px;
+  }
+}
+
+.message-user textarea {
+  @media #{$desktop} {
+    height: 95px;
+  }
 }
 
 .message-user input,
