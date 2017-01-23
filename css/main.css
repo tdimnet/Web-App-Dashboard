@@ -740,6 +740,10 @@ span.magnifying-glass {
       width: 32%; } }
 
 @media (min-width: 768px) {
+  .social-stats:nth-child(4) {
+    margin-left: 0; } }
+
+@media (min-width: 768px) {
   .social-stats:first-child {
     margin-left: 0; } }
 .social-stats h4 {
@@ -780,7 +784,8 @@ span.magnifying-glass {
   margin: 20px auto; }
   @media (min-width: 1024px) {
     .new-members-and-recent-activity {
-      display: flex; } }
+      display: flex;
+      margin-bottom: 0; } }
 
 .new-members,
 .recent-activity {
@@ -793,17 +798,12 @@ span.magnifying-glass {
       border-bottom: none;
       width: 50%; } }
 
-@media (min-width: 1024px) {
-  .new-members {
-    padding-right: 10px; } }
-
 .recent-activity {
   border-top: none; }
   @media (min-width: 1024px) {
     .recent-activity {
       border-top: 1px solid #ccc;
-      border-left: 1px solid #ccc;
-      padding-left: 10px; } }
+      border-left: 1px solid #ccc; } }
 
 .new-members-information {
   border-bottom: 1px solid #ccc; }
@@ -836,6 +836,12 @@ span.magnifying-glass {
   .members-activity,
   .members-activity-date {
     margin-left: 45px; } }
+@media (min-width: 1024px) {
+  .members-name,
+  .members-email,
+  .members-activity,
+  .members-activity-date {
+    margin-left: 0; } }
 
 .members-name {
   color: #777;
@@ -912,14 +918,14 @@ span.magnifying-glass {
 
 @media (min-width: 1024px) {
   .settings {
-    padding-left: 10px; } }
+    padding-left: 10px;
+    border-left: 1px solid #ccc; } }
 
 .message-user {
   border-bottom: 1px solid #ccc; }
   @media (min-width: 1024px) {
     .message-user {
       border-bottom: none;
-      border-right: 1px solid #ccc;
       padding-right: 10px; } }
 
 @media (min-width: 1024px) {

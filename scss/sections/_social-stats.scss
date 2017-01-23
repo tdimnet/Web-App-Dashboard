@@ -27,6 +27,12 @@
   }
 }
 
+.social-stats:nth-child(4) {
+  @media #{$tablet} {
+    margin-left: 0;
+  }
+}
+
 @media #{$tablet} {
   .social-stats:first-child {
     margin-left: 0;
