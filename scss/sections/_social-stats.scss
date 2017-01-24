@@ -43,6 +43,9 @@
   color: #7377BF;
   margin-top: 0;
   margin-bottom: 0;
+  @media #{$desktop} {
+    text-align: left;
+  }
 }
 
 .social-stats p {
@@ -50,11 +53,20 @@
   margin-bottom: 0;
   color: #777;
   font-size: 1.5em;
+  @media #{$desktop} {
+    font-size: 2em;
+    text-align: left;
+  }
 }
 
 .social-stats svg {
   background-color: #7377BF;
   border-radius: 50%;
+  @media #{$desktop} {
+    float: left;
+    margin-left: 20%;
+    margin-right: 3%;
+  }
 }
 
 .social-stats svg path {

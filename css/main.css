@@ -751,16 +751,28 @@ span.magnifying-glass {
   color: #7377BF;
   margin-top: 0;
   margin-bottom: 0; }
+  @media (min-width: 1024px) {
+    .social-stats h4 {
+      text-align: left; } }
 
 .social-stats p {
   margin-top: 0;
   margin-bottom: 0;
   color: #777;
   font-size: 1.5em; }
+  @media (min-width: 1024px) {
+    .social-stats p {
+      font-size: 2em;
+      text-align: left; } }
 
 .social-stats svg {
   background-color: #7377BF;
   border-radius: 50%; }
+  @media (min-width: 1024px) {
+    .social-stats svg {
+      float: left;
+      margin-left: 20%;
+      margin-right: 3%; } }
 
 .social-stats svg path {
   fill: #fff;
@@ -913,7 +925,7 @@ span.magnifying-glass {
 
 .alert-box-message-user,
 .alert-box-error-message-user {
-  position: absolute;
+  position: fixed;
   z-index: 200;
   width: 90%;
   height: 200px;

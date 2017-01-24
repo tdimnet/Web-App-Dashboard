@@ -13,7 +13,7 @@
   //If no error
   .alert-box-message-user,
   .alert-box-error-message-user {
-    position: absolute;
+    position: fixed;
     z-index: 200;
     width: 90%;
     height: 200px;
