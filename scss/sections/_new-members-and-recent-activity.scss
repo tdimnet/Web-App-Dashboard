@@ -110,6 +110,9 @@
 
 .members-activity {
   color: #777;
+  @media #{$desktop} {
+    font-size: .8em;
+  }
 }
 
 .members-activity-date {
