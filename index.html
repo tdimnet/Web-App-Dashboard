@@ -345,16 +345,30 @@
 
 
         <div class="message-user-and-settings">
+          <!-- Start: The pop-up alert box -->
+          <div class="alert-box-message-user">
+            <h2>Your message has been sent</h2>
+            <p class="close-this-btn">
+              Close this
+            </p>
+          </div>
+          <div class="alert-box-error-message-user">
+            <h2>Error: your message has not been sent</h2>
+            <p class="close-this-btn">
+              Close this
+            </p>
+          </div>
+          <!-- End: The pop-up alert box -->
           <div class="message-user">
             <h3>Message User</h3>
             <p>
-              <input type="text" placeholder="Search for User" autocomplete="off">
+              <input class="send-user-name" type="text" placeholder="Search for User" autocomplete="off">
             </p>
             <p>
-              <textarea placeholder="Message for User"></textarea>
+              <textarea class="send-message" placeholder="Message for User"></textarea>
             </p>
             <p>
-              <button type="submit">Send</button>
+              <button class="send-btn" type="submit">Send</button>
             </p>
           </div><!-- END: message-user -->
           <div class="settings">

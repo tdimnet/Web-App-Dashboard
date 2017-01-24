@@ -903,16 +903,40 @@ span.magnifying-glass {
   fill: #7479BD; }
 
 .message-user-and-settings {
-  margin: 20px auto; }
+  margin: 20px auto;
+  position: relative; }
   @media (min-width: 1024px) {
     .message-user-and-settings {
       display: flex;
       border-top: 1px solid #ccc;
       margin-top: 0; } }
 
-@media (min-width: 1024px) {
-  .message-user-and-settings {
-    margin-top: 0; } }
+.alert-box-message-user,
+.alert-box-error-message-user {
+  position: absolute;
+  z-index: 200;
+  width: 90%;
+  height: 200px;
+  border-radius: 10px;
+  bottom: 50%;
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #81C98F;
+  color: #fff;
+  text-align: center;
+  display: none; }
+
+.alert-box-error-message-user {
+  background-color: #c0392b; }
+
+.close-this-btn {
+  cursor: pointer;
+  opacity: .7; }
+
+.close-this-btn:hover {
+  opacity: 1; }
 
 @media (min-width: 1024px) {
   .message-user,

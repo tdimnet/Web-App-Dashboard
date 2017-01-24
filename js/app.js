@@ -1,14 +1,37 @@
-//The dropdown notification menu
-$('.icon-bell-element').click(function () {
-  $('#dropdown-notification-menu').toggle();
-});
 
+  //
+    // ALERT DIALOG BOX PART
+  //
 //Close the alert dialog box
 $('.close-button').click(function () {
   $('.alert-box').fadeOut("slow");
 });
 
 
+
+  //
+    // SEND THE MESSAGE PART
+  //
+// Confirmation if message sent
+$('.send-btn').click(function() {
+  var messageToTheUser = "";
+  var userName =  $('.send-user-name').val();
+  var userMessage = $('.send-message').val();
+  if ((userName.length === 0) || (userMessage.length === 0)) {
+    $('.alert-box-error-message-user').fadeIn('slow');
+  } else {
+    $('.alert-box-message-user').fadeIn('slow');
+  }
+});
+
+// Close this button
+$('.close-this-btn').click(function() {
+  $(this).parent().fadeOut('slow');
+});
+
+  //
+    // THE CHART PARTS
+  //
 //General settings for the charts
 Chart.defaults.global.legend.display = false;
 Chart.defaults.global.responsive = true;
