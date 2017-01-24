@@ -39,9 +39,10 @@
 
 .daily-traffic-widget {
   margin-left: -10px;
+  max-height: 200px;
   @media #{$tablet} {
     margin-top: 20px;
-    max-height: 200px;
+    max-height: 250px;
   }
 }
 

@@ -75,63 +75,56 @@ var myTrafficWidget = new Chart($webTrafficWidget, {
 
 
   //Start: The daily traffic widget
+
+// Creating the variables: the container class
 var $dailyTrafficWidget = $('.daily-traffic-widget');
 
-var dataDailyTrafficWidget = {
-  labels: ["S", "M", "T", "W", "T", "F", "S"],
-    datasets: [
-        {
-            label: "My First dataset",
-            backgroundColor: [
-                '#7377BF',
-                '#7377BF',
-                '#7377BF',
-                '#7377BF',
-                '#7377BF',
-                '#7377BF',
-                '#7377BF'
-            ],
-            borderColor: [
-                '#7377BF',
-                '#7377BF',
-                '#7377BF',
-                '#7377BF',
-                '#7377BF',
-                '#7377BF',
-                '#7377BF'
-            ],
-            borderWidth: 1,
-            data: [75, 100, 175, 125, 225, 200, 100],
-        },
-        {
-            label: "My Second dataset",
-            backgroundColor: [
-                '#6195ED',
-                '#6195ED',
-                '#6195ED',
-                '#6195ED',
-                '#6195ED',
-                '#6195ED',
-                '#6195ED'
-            ],
-            borderColor: [
-                '#6195ED',
-                '#6195ED',
-                '#6195ED',
-                '#6195ED',
-                '#6195ED',
-                '#6195ED',
-                '#6195ED'
-            ],
-            borderWidth: 1,
-            data: [175, 75, 50, 175, 125, 50, 250],
-        }
-    ]
-};
+// Creating the labels and data
+    // The first bar chart
+var firstLabelsDailyTrafficWidget = ["S", "M", "T", "W", "T", "F", "S"];
+var firstDataDailyTrafficWidget = [75, 100, 175, 125, 225, 200, 100];
+var firstbackgroundColor = ['#7377BF', '#7377BF', '#7377BF', '#7377BF', '#7377BF', '#7377BF', '#7377BF'];
+var firstBorderColor = ['#7377BF', '#7377BF', '#7377BF', '#7377BF', '#7377BF', '#7377BF', '#7377BF'];
+    // The second bar chart
+var secondDataDailyTrafficWidget = [175, 75, 50, 175, 125, 50, 250];
+var secondbackgroundColor = ['#6195ED', '#6195ED', '#6195ED', '#6195ED', '#6195ED', '#6195ED', '#6195ED'];
+var secondBorderColor = ['#6195ED', '#6195ED', '#6195ED', '#6195ED', '#6195ED', '#6195ED', '#6195ED'];
 
+// Creating the chart itself
 var myDailyWidget = new Chart($dailyTrafficWidget, {
   type: 'bar',
-  data: dataDailyTrafficWidget
+  data: {
+    labels: firstLabelsDailyTrafficWidget,
+      datasets: [
+          {
+            data: firstDataDailyTrafficWidget,
+            backgroundColor: firstbackgroundColor,
+            borderColor: firstBorderColor,
+            borderWidth: 1,
+          },
+          {
+            data: secondDataDailyTrafficWidget,
+            backgroundColor: secondbackgroundColor,
+            borderColor: secondBorderColor,
+            borderWidth: 1,
+          }
+      ]
+  },
+  options: {
+    scales: {
+      yAxes: [{
+        type: 'linear',
+        ticks: {
+          max: 250,
+          min: 0,
+          stepSize: 50,
+        },
+        gridLines: {
+          color: '#ccc',
+        }
+      }]
+    }
+  }
 });
   //End: The daily traffic widget
 
