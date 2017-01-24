@@ -158,7 +158,7 @@
 
 input.switch:empty
 {
-	margin-left: -999px;
+	margin-left: -9999px;
 }
 
 input.switch:empty ~ label
@@ -172,7 +172,6 @@ input.switch:empty ~ label
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
-	user-select: none;
 }
 
 input.switch:empty ~ label:before,
