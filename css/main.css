@@ -797,7 +797,9 @@ span.magnifying-glass {
     .new-members,
     .recent-activity {
       border-bottom: none;
-      width: 50%; } }
+      width: 50%;
+      padding-left: 25px;
+      padding-right: 25px; } }
 
 .recent-activity {
   border-top: none; }
@@ -842,7 +844,7 @@ span.magnifying-glass {
   .members-email,
   .members-activity,
   .members-activity-date {
-    margin-left: 0; } }
+    margin-left: 40px; } }
 
 .members-name {
   color: #777;
@@ -915,19 +917,19 @@ span.magnifying-glass {
 @media (min-width: 1024px) {
   .message-user,
   .settings {
-    width: 50%; } }
+    width: 50%;
+    padding-left: 25px;
+    padding-right: 30px; } }
 
 @media (min-width: 1024px) {
   .settings {
-    padding-left: 10px;
     border-left: 1px solid #ccc; } }
 
 .message-user {
   border-bottom: 1px solid #ccc; }
   @media (min-width: 1024px) {
     .message-user {
-      border-bottom: none;
-      padding-right: 10px; } }
+      border-bottom: none; } }
 
 @media (min-width: 1024px) {
   .message-user input {
